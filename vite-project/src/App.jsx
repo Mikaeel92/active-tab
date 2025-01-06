@@ -1,6 +1,9 @@
 import React from 'react'
 
 const App = () => {
+
+  const [activeTab, setActiveTab] = useState(0)
+
   const foodData = [{
     food: 'Burger',
     imageAddress: '/public/burger.jpg'
